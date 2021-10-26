@@ -24,7 +24,7 @@ import AiModal from "./modals/AiModal"
 
 
 
-
+ 
 import "../../../assets/css/dash.css";
 // import * as V from 'victory';
 import { VictoryVoronoiContainer,VictoryLine,VictoryBrushContainer,VictoryTheme,VictoryAxis,VictoryBar,VictoryChart, VictoryZoomContainer,VictoryScatter} from 'victory';
