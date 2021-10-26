@@ -1,5 +1,5 @@
 # base image
-FROM node:9.11
+FROM node:10
 
 # set working directory
 RUN mkdir /usr/src/app
@@ -10,8 +10,10 @@ ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
 # install and cache app dependencies
 COPY package.json /usr/src/app/package.json
-RUN yarn install
+COPY yarn.lock /usr/src/app/yarn.lock
 RUN npm install react-scripts -g
+RUN yarn install
+
 
 
 # start app
