@@ -10,8 +10,9 @@ ENV PATH /usr/src/app/node_modules/.bin:$PATH
 
 # install and cache app dependencies
 COPY package.json /usr/src/app/package.json
-RUN yarn global add
-RUN yarn global add react-scripts -g
+RUN npm install -g npm@latest
+RUN npm install
+RUN npm install react-scripts -g
 
 # start app
 CMD ["npm", "start"]
