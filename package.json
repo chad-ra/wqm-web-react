@@ -3,7 +3,7 @@
   "name": "web",
   "version": "0.1.0",
   "private": false,
-  "proxy": "http://35.247.138.107:8000",
+  "proxy": "http://165.22.62.140:8000/",
   "dependencies": {
     "@primer/octicons-react": "^10.0.0",
     "@testing-library/jest-dom": "^4.2.4",
