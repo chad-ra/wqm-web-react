@@ -42,7 +42,7 @@ import {
 } from "victory";
 
 import Chart, { ArgumentAxis, Series, Legend } from "devextreme-react/chart";
-import RechartGraph from "./RechartGraph";
+
 
 class Dashboard_detail extends React.Component {
   constructor() {
